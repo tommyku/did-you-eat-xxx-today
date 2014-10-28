@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>你今日食左未呀</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+  </head>
+  <body>
+
+    <div id="med-app" class="container">
+      <div class="row">
+	<div class="col-md-6 col-md-offset-3">
+	  <!-- Header -->
+	  <h3 class="text-center">你今日食左<span class="subject"></span>未呀</h3>
+	  <!-- Input box -->
+	  <div id="eatSubject" class="form-group">
+	    <input type="text" class="eatWhat form-control input-lg text-center " placeholder="食乜撚野" />
+	    <div class="eatOther text-center text-mute">食其他</div>
+	  </div>
+	  <!-- Conclusion -->
+	  <div id="eatPanel" class="text-center well ">
+	    <div class="yestNotEaten"></div>
+	    <div class="todayNotEaten"></div>
+	    <div class="todayEaten"></div>
+	    <h4 class="reminder">食<span class="subject"></span>啦柒頭</h4>
+	    <button class="doneEat btn btn-lg btn-success">食左啦</button>
+          </div>
+	</div>
+      </div>
+    </div>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
